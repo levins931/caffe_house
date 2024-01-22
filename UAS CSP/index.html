@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM LOGIN</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-card">
+        <img src="image/coffee-house-cafe-logo-21.png" alt="" width="50%">
+        
+        <h2 align="center">Form Login</h2>
+
+        <form action="beranda.html" method="post">
+            <label for="txtuser">Username:</label>
+            <input type="text" name="txtuser" id="txtuser" placeholder="Minimal 3-10 Characters" pattern="[A-Za-z0-9]{3,10}" required title="Enter 3-10 Characters">
+
+            <label for="txtpass">Password:</label>
+            <input type="password" id="txtpass" name="txtpass" placeholder="Minimal 8 Characters" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$" required title="Password must be at least 8 characters, including a number, lowercase, and uppercase letter">
+
+            <p>Belum Punya Akun? <a href="register.html">Daftar</a></p>
+
+            <input type="submit" value="Login" >
+        </form>
+    </div>
+</body>
+</html>

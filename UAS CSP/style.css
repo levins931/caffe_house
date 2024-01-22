@@ -1,0 +1,166 @@
+.login-card {
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.login-card img {
+    display: block;
+    margin: 0 auto 20px;
+    animation: floatImage 2s infinite alternate;
+    }
+
+    @keyframes floatImage {
+        from {
+            transform: translateY(0);
+        }
+        to {
+            transform: translateY(-10px);
+        }
+    }
+
+
+.login-card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-card label {
+    margin-bottom: 8px;
+}
+
+.login-card input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-card p {
+    margin-top: 10px;
+    font-size: 14px;
+    align-content: center;
+}
+
+.login-card a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+.login-card input[type="submit"] {
+    background-color:  #7f7462;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.login-card input[type="submit"]:hover {
+    transform: scale(1.1);
+}
+body {
+    background-color: #f0f0f0;
+    padding-top: 56px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    }
+.menu-card {
+    width: 100%;
+    max-width: 1300px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.menu-card img {
+    width: 30%;
+    border-radius: 8px;
+    margin: 0 auto 15px;
+    display: block; 
+    animation: floatImage 2s infinite alternate;
+}
+.card-item {
+    width: 100%;
+    max-width: 1300px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out;
+}
+.card-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 0 auto 15px;
+    display: block; 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Menggunakan Grid dengan ukuran minimum dan maksimum */
+  gap: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col {
+    flex-basis: calc(25% - 20px); /* Menampilkan 4 card dalam satu baris */
+    margin-bottom: 20px;
+}
+
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    height: 230px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    max-width: 100%;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin-bottom: 15px;
+}
+

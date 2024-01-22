@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>ContactUs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <style>
+    .menu-card form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-card label {
+        margin-bottom: 8px;
+    }
+
+    .menu-card input {
+        padding: 10px;
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    .menu-card p {
+        margin-top: 10px;
+        font-size: 14px;
+        align-content: center;
+    }
+
+    .menu-card a {
+        color: #007BFF;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .menu-card input[type="submit"] {
+        background-color:  #7f7462;
+        color: white;
+        cursor: pointer;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .menu-card input[type="submit"]:hover {
+        transform: scale(1.1);
+    }
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff; 
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+    }
+  </style>
+<body>
+    <section id="menu">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #7f7462">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="beranda.html">Beranda</a></li>
+                            <li><a class="dropdown-item" href="index.html">LogOut</a></li>
+                          </ul>
+                      </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Menu Pesanan
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="minuman.html">Minuman</a></li>
+                              <li><a class="dropdown-item" href="makanan.html">Makanan</a></li>
+                              <li><a class="dropdown-item" href="cemilan.html">Cemilan</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contactUs.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+      </section>
+    <div class="menu-card">
+        <img src="image/coffee-house-cafe-logo-21.png" alt="" width="50%">
+    </div>
+    <div class="menu-card">
+        <h2 align="center">Hubungi Kami</h2>
+
+        <form action="beranda.html" method="post">
+            <label for="txtuser" placeholder="Nama Lengkap Anda">Nama Anda:</label>
+            <input type="text">
+            <label for="txtuser" placeholder="Email Anda">Email:</label>
+            <input type="text">
+            <label for="txtuser" placeholder="Pesan atau Komentar Anda">Pesan Anda:</label>
+            <textarea name="" id="" cols="15" rows="4"></textarea>
+            <br>
+            <input type="submit" value="Kirim Pesan" src="beranda.html">   
+        </form>
+    </div>
+    <div class="menu-card">
+        <div class="container">
+          <div align="center">
+            <h5>Tentang Kami</h5>
+            <p>Caffe House menyajikan pengalaman kafe yang unik dengan menu beragam dan suasana hangat</p>
+          </div>
+          <div align="center">
+            <h5>Hubungi Kami</h5>
+            <p>Email: info@caffe-house.com <br>Telepon: (123) 456-7890</p>  
+          </div>
+          <div align="center">
+            <h5>Ikuti Kami</h5>
+            <p>Temui kami di media sosial untuk mendapatkan update terbaru:
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Instagram</a>
+            <a href="#" target="_blank">Twitter</a></p>
+          </div>
+        </div>
+          <div>
+            <p align="center">&copy; 2024 Caffe House. Hak Cipta Dilindungi.</p>
+          </div>
+      </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

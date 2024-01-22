@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beranda</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <style>
+    .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff; 
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+    }
+  </style>
+  <body>
+    <section id="menu">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #7f7462">
+          <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Home
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="beranda.html">Beranda</a></li>
+                          <li><a class="dropdown-item" href="index.html">LogOut</a></li>
+                        </ul>
+                    </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menu Pesanan
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="minuman.html">Minuman</a></li>
+                            <li><a class="dropdown-item" href="makanan.html">Makanan</a></li>
+                            <li><a class="dropdown-item" href="cemilan.html">Cemilan</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="contactUs.html">Contact Us</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+    </section>
+    <div class="menu-card" id="home"><img src="image/coffee-house-cafe-logo-21.png" alt=""></div>
+    <section id="slider">
+        <div class="menu-card">
+          <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="image/baru/1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="image/baru/4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src=image/baru/3.jpg class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src=image/baru/4.jpg class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section>
+        <div class="menu-card">
+            <h2 align="center">Selamat Datang di Caffe House!</h2> 
+            <h4 align="center">Nikmati Suasana yang Hangat dan Menu Beragam </h4>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Selamat datang di Caffe House, tempat di mana kenyamanan dan kelezatan bertemu. Kami dengan bangga menyajikan pengalaman kafe yang unik, menggabungkan nuansa yang hangat dengan menu yang beragam untuk memenuhi selera Anda. Apakah Anda mencari secangkir kopi yang membangkitkan semangat, hidangan lezat untuk sarapan, atau cemilan manis untuk menemani waktu santai Anda, kami memiliki segalanya.</p>
+        </div>
+                   
+        <div class="menu-card">
+          <h5 align="center">MENU KAMI : </h5>
+            <div class="container">
+              <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Minuman Pilihan</h5>
+                            <p>Dari kopi pilihan hingga minuman esegar, nikmati berbagai minuman berkualitas tinggi yang disajikan dengan cinta dan keahlian. Pilih dari berbagai biji kopi pilihan kami atau temukan minuman spesial yang hanya dapat Anda temui di Caffe House.</p>
+                        </div>
+                    </div>
+              </div>
+              <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Makanan Lezat</h5>
+                            <p>Dari sarapan hingga makan malam, hidangan lezat kami siap memanjakan lidah Anda. Setiap hidangan disiapkan dengan bahan-bahan segar dan berkualitas untuk memberikan pengalaman makan yang tak terlupakan.
+                            </p>
+                        </div>
+                    </div>
+              </div>
+              <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Cemilan Manis</h5>
+                            <p>Tutup santap Anda dengan cemilan manis dari koleksi kami. Dari kue lezat hingga pastry yang lembut, kami memiliki pilihan cemilan yang sempurna untuk memuaskan keinginan manis Anda.</p>
+                        </div>
+                    </div>
+              </div>    
+            </div>
+    </section>
+    <div class="menu-card">
+      <div class="container">
+        <div align="center">
+          <h5>Tentang Kami</h5>
+          <p>Caffe House menyajikan pengalaman kafe yang unik dengan menu beragam dan suasana hangat</p>
+        </div>
+        <div align="center">
+          <h5>Hubungi Kami</h5>
+          <p>Email: info@caffe-house.com <br>Telepon: (123) 456-7890</p>  
+        </div>
+        <div align="center">
+          <h5>Ikuti Kami</h5>
+          <p>Temui kami di media sosial untuk mendapatkan update terbaru:
+          <a href="#" target="_blank">Facebook</a>
+          <a href="#" target="_blank">Instagram</a>
+          <a href="#" target="_blank">Twitter</a></p>
+        </div>
+      </div>
+        <div>
+          <p align="center">&copy; 2024 Caffe House. Hak Cipta Dilindungi.</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
